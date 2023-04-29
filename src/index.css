@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #41644A;
+    color: white;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+}
+.container{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*---- PlusMinus Component Styling----*/
+.counter {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #F2E3DB;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    width: 750px;
+}
+
+.counter > button {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: #737373;
+    color: #D9D9D9;
+    font-size: 1.5rem;
+}
+
+.counter > button:hover {
+    background-color: #404040;
+    color: #D9D9D9;
+}
+
+.counter > button:focus {
+    outline: none;
+}
+
+.counter--count {
+    background-color: rgb(30, 30, 30);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.counter--plus {
+    margin-left: -20px;
+    margin-bottom: 20px;
+}
+
+.counter--minus {
+    margin-right: -20px;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+/*----button Component Styling----*/
+.mainBtn{
+    background-color: #F2E3DB;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    color: black;
+    text-align: center;
+    width: 750px;
+}
+.resetBtn{
+    background-color:rgb(30, 30, 30);
+    height: 52px;
+    width: 80px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 0 0 0;
+    border: none;
+    margin-left: 5px;
+}
+.resetBtn:hover {
+    background-color: #FFFEF1;
+    color: #000000;
+    border: solid 2px;
+    border-color:rgb(30, 30, 30) ;
+}
+
+.resetBtn:focus {
+    outline: none;
+}
+button {
+    width: 50%;
+    background-color:rgb(30, 30, 30);
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 0 0 0;
+    border: none;
+    
+}
+button:hover {
+    background-color: #FFFEF1;
+    color: #000000;
+    border: solid 2px;
+    border-color:rgb(30, 30, 30) ;
+}
+
+button:focus {
+    outline: none;
+}
+/*----YesNo component Styling----*/
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2E3DB;
+    border-radius: 15px;
+    color: black;
+    width: 750px;
+}
+
+.switch{
+    background-color: rgb(30, 30, 30);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
