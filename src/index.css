@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #41644A;
+    background-color: #181D31;
     color: white;
     padding: 20px;
     font-family: 'Poppins', sans-serif;
@@ -23,7 +23,7 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    background-color: #F2E3DB;
+    background-color: #ECF9FF;
     border-radius: 15px;
     margin-bottom: 30px;
     width: 750px;
@@ -74,7 +74,7 @@ body {
 }
 /*----button Component Styling----*/
 .mainBtn{
-    background-color: #F2E3DB;
+    background-color: #ECF9FF;
     border-radius: 15px;
     margin-bottom: 30px;
     color: black;
@@ -129,7 +129,7 @@ button:focus {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #F2E3DB;
+    background-color: #ECF9FF;
     border-radius: 15px;
     color: black;
     width: 750px;
